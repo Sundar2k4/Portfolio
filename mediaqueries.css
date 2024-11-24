@@ -1,0 +1,18 @@
+@media screen and (max-width:1200px)
+{
+    #navv
+    {
+           display:none;
+    }
+
+    #hamburger
+    {
+        display: flex;
+    }
+    
+    .logo
+    {
+        margin-left: 2vh;
+    }
+
+}
