@@ -500,5 +500,43 @@ a:hover{
         justify-content: center;
         align-items: center;
     }
-    
+   
+    .info img{
+        height: 40vh;
+    }
 
+    .info{
+        padding: 15vh;
+        display: flex;
+        font-family: poppins;
+        font-size: 4vh;
+    }
+
+    .foot
+    {
+        background-color: black;
+        display: flex;
+        gap: 50vh;
+        padding: 20vh;
+        margin-top: 20vh;
+    }
+    .foot p{
+        color: white;
+        font-family: poppins;
+        font-size: 4vh;
+    }
+
+    .linkies a 
+    {
+        color: white;
+        font-family: poppins;
+        font-size: 4vh;
+        list-style: none;
+        display: inline-flex;
+    }
+    .linkies li{
+        color: white;
+        font-family: poppins;
+        font-size: 4vh;
+        list-style: none;
+    }
