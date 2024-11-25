@@ -23,4 +23,28 @@
    {
      margin-top: 20vh;
    }
+
+   .data
+   {
+      flex-direction: column;
+      gap: 1vh;
+      align-items:center;
+      margin-left: -6vh;
+       
+   }
+
+   .education
+   {
+      width: 64vh;
+   }
+
+   .experience
+   {
+    margin-top: -4vh;
+   }
+
+   .note{
+       width: 67vh;
+       margin-left: 25px;
+   }
 }

@@ -330,4 +330,82 @@ a:hover{
     justify-content: center;
     align-items: center;
     width: 200vh;
+    margin-bottom: 2vh;
+}
+
+.gif-container
+{
+   display:flex;
+   width: 200vh;
+}
+
+.frontend
+{
+    padding: 5vh;
+    display: flex;
+   
+}
+.frontend img
+{
+    height: 40vh;
+    border-radius: 10vh;
+    border: 2px solid black;
+
+}
+
+.skills
+{
+    padding: 5vh;
+    margin-top: -7vh;
+  
+}
+
+.skills li{
+    list-style: none;
+    font-size: 6vh;
+    font-family: poppins;
+    margin-left: 2vh;
+    display: flex;
+}
+
+.skills img{
+    height: 5vh;
+}
+
+.gif-container2
+{
+    display:flex;
+    justify-content: flex-end;
+    width: 200vh;
+    gap: 3vh;
+}
+
+.backend
+{
+    padding: 9vh;
+    margin-right: -20vh;
+    gap: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.backend img
+{
+    height: 40vh;
+    border-radius: 10vh;
+    border: 2px solid black;
+
+}
+
+.skillss img{
+    height: 5vh;
+}
+
+.skillss li{
+    list-style: none;
+    font-size: 6vh;
+    font-family: poppins;
+    margin-left: 6vh;
+    display: flex;
 }
