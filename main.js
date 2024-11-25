@@ -64,7 +64,7 @@ window.addEventListener('resize', () => {
 let mouseX = 0;
 let mouseY = 0;
 
-const sensitivity = 0.7;
+const sensitivity = 0.5;
 const interactionRadius = 3; 
 
 window.addEventListener('mousemove', (event) => {

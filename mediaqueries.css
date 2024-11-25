@@ -10,9 +10,17 @@
         display: flex;
     }
     
-    .logo
-    {
-        margin-left: 2vh;
-    }
+   .logo
+   {
+     padding-left: 20vh;
+   }
 
+    .btn
+    {
+        margin-top: 20vh;
+    }
+   .section-text
+   {
+     margin-top: 20vh;
+   }
 }
