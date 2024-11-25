@@ -25,7 +25,7 @@
         <div class="navlinks">
             <li><a href="about.html">Education</a></li>
             <li><a href="skills.html">Skills</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li>
         </div>
     </nav>
     <nav id="hamburger">
@@ -39,7 +39,7 @@
             <div class="menu-links">
                 <li><a href="about.html" onclick="sidebar()">Education</a></li>
                 <li><a href="skills.html" onclick="sidebar()">Skills</a></li>
-                <li><a href="#" onclick="sidebar()">Projects</a></li>
+                <li><a href="projects.html" onclick="sidebar()">Projects</a></li>
             </div>
         </div>
 
@@ -70,6 +70,44 @@
         </div>
     </div>
     <div id="threejs"></div>
+    <div class="work">
+        <p>
+            Working on
+        </p>
+        <p style=" font-family:Arial, Helvetica, sans-serif;font-size:5vh;color:grey">Improving Skills In</p>
+    </div>
+    <div class="data-container">
+        <div class="grid1">
+            <img src="assets/web-development-4.gif" alt="">
+            <p>Front End Development</p>
+        </div>
+        <div class="grid1">
+            <img src="assets/backend.gif" alt="">
+            <p>Back End Development</p>
+        </div>
+        <div class="grid1">
+            <img src="assets/programming.gif" alt="">
+            <p>Competitive Programming</p>
+        </div>
+    </div>
+
+    <div class="work">
+        <p>
+            Projects
+        </p>
+        <p style=" font-family:Arial, Helvetica, sans-serif;font-size:5vh;color:grey">Browse My Projects</p>
+    </div>
+    <div class="projects">
+        <div class="block1" onclick="window.open('https://grand-mark-hotel-reservator-client.vercel.app/')">
+            <img src="./assets/grandmark.png" alt="">
+            <p>Grandmark Hotel Reservator</p>
+        </div>
+        <div class="block1" onclick="window.open('https://sundar2k4.github.io/ancient-gallery/')">
+            <img src="./assets/ancient gallery.png" alt="">
+            <p>Ancient Art Gallery</p>
+        </div>
+    </div>
+    <button class="click" onclick="window.location.href='projects.html'">Click For More >></button>
     <script src="script.js"></script>
     <script type="module" src="main.js"></script>
 </body>

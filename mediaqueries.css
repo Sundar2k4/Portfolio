@@ -47,4 +47,55 @@
        width: 67vh;
        margin-left: 25px;
    }
+.gif-container .frontend
+{
+  flex-direction: column;
+  gap: 5vh;
+  width: 70vh;
+}
+
+.gif-container2 
+{
+  flex-direction: column;
+  gap: 5vh;
+ 
+}
+
+.gif-container2 .backend 
+{
+  flex-direction: column;
+  width: 70vh;
+}
+
+.backend li 
+{
+  margin-left: -8vh;
+}
+
+.frontend li{
+  margin-left: -8vh;
+}
+  
+.data-container
+{
+  flex-direction: column;
+}
+
+.projects
+{
+  flex-direction: column;
+  margin-top: 100vh;
+}
+
+.work
+{
+   margin-top: 150vh;
+   margin-bottom: -90vh;
+}
+
+.click
+{
+  margin-top: 60vh;
+  margin-left: -1vh;
+}
 }
